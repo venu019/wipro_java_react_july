@@ -1,0 +1,17 @@
+package com.java.core;
+
+public class EmployeeSalary {
+	
+	 public double getSalary(double salary ,double bonus) {
+		 
+		 double total_salary = salary + bonus;
+		 
+		 System.out.println(total_salary);
+		 return total_salary;
+	 }
+	 public static void main(String[] args) {
+		EmployeeSalary salary = new EmployeeSalary();
+		salary.getSalary(20000, 2000);
+	}
+
+}
